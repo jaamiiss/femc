@@ -1,5 +1,5 @@
 <script>
-	import Attribution from "./attribution.svelte";
+	import Attribution from "./Attr.svelte";
     const imageSrc = "https://ik.imagekit.io/ivw8jbdbt/FEMC/image-qr-code";
 </script>
 <section class="container" role="main">

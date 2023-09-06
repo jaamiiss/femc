@@ -1,5 +1,5 @@
 <script>
-	import Attribution from "./Attribution.svelte";
+	import Attribution from "./Attr.svelte";
     const imageSrc = "https://ik.imagekit.io/ivw8jbdbt/FEMC/image-product-desktop"
     const imageSrcM = "https://ik.imagekit.io/ivw8jbdbt/FEMC/image-product-mobile"
     const iconCart = "https://ik.imagekit.io/ivw8jbdbt/FEMC/icon-cart.svg";
