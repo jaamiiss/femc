@@ -1,4 +1,4 @@
 <script>
-	import QRCode from "$lib/components/qr-code.svelte";
+	import QRCode from "../../../lib/components/QRCode.svelte";
 </script>
 <QRCode/>
