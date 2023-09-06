@@ -9,11 +9,8 @@
         <div class="product-image">
             <picture>
                 <source media="(min-width: 640px)" srcset="{imageSrc}.avif 1x,
-                    {imageSrc}@2x.avif 2x,
                     {imageSrc}.webp 1x,
-                    {imageSrc}@2x.webp 2x,
-                    {imageSrc}.jpg 1x,
-                    {imageSrc}@2x.jpg 2x" />
+                    {imageSrc}.jpg 1x" />
                 <source type="image/avif" srcset="{imageSrcM}.avif">
                 <source type="image/webp" srcset="{imageSrcM}.webp">
                 <source type="image/jpg" srcset="{imageSrcM}.jpg">          
