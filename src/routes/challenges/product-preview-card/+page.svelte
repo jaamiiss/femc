@@ -1,4 +1,4 @@
 <script>
-	import ProdCard from "$lib/components/prod-card.svelte";
+	import ProdCard from "$lib/components/ProductPreviewCard.svelte";
 </script>
 <ProdCard/>

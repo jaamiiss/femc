@@ -9,3 +9,5 @@ node_modules
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 src/routes/challenges/qr-code/README.md
+src/lib/components/ResultsSummary.svelte
+src/routes/challenges/results-summary*
