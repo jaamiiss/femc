@@ -11,9 +11,9 @@
             <p class="description">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
        </div>     
     </div>
-    <div class="attribution" role="contentinfo">
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-        Coded by <a href="https://www.frontendmentor.io/profile/jaamiiss">jaamiiss</a>.
+    <div class="attribution">
+        Challenge by <a title="Frontend Mentor Challenge" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a title="Frontend Mentor Profile" href="https://www.frontendmentor.io/profile/jaamiiss">jaamiiss</a>.
     </div>
 </div>
 <style>  
