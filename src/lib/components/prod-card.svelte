@@ -1,5 +1,5 @@
 <script>
-	import Attribution from "./Attribution.svelte";
+	import Attribution from "./attribution.svelte";
     const imageSrc = "https://ik.imagekit.io/ivw8jbdbt/FEMC/image-product-desktop"
     const imageSrcM = "https://ik.imagekit.io/ivw8jbdbt/FEMC/image-product-mobile"
     const iconCart = "https://ik.imagekit.io/ivw8jbdbt/FEMC/icon-cart.svg";
@@ -9,6 +9,7 @@
         <div class="product-image">
             <picture>
                 <source media="(min-width: 640px)" srcset="{imageSrc}.avif,
+                    {imageSrc}.webp,
                     {imageSrc}.jpg" />
                 <source type="image/avif" srcset="{imageSrcM}.avif">
                 <source type="image/webp" srcset="{imageSrcM}.webp">
