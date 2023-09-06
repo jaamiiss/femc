@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container" role="main">
     <div class="card">
        <picture>
             <source type="image/avif" srcset="https://ik.imagekit.io/ivw8jbdbt/FEMC/image-qr-code.avif">
@@ -11,7 +11,7 @@
             <p class="description">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
        </div>     
     </div>
-    <div class="attribution">
+    <div class="attribution" role="contentinfo">
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
         Coded by <a href="https://www.frontendmentor.io/profile/jaamiiss">jaamiiss</a>.
     </div>
