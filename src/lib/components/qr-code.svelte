@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container" role="contentinfo">
     <div class="card">
        <picture>
             <source type="image/avif" srcset="https://ik.imagekit.io/ivw8jbdbt/FEMC/image-qr-code.avif">
