@@ -8,9 +8,9 @@
     <div class="product-card">
         <div class="product-image">
             <picture>
-                <source media="(min-width: 640px)" srcset="{imageSrc}.avif 1x,
-                    {imageSrc}.webp 1x,
-                    {imageSrc}.jpg 1x" />
+                <source media="(min-width: 640px)" srcset="{imageSrc}.avif,
+                    {imageSrc}.webp,
+                    {imageSrc}.jpg" />
                 <source type="image/avif" srcset="{imageSrcM}.avif">
                 <source type="image/webp" srcset="{imageSrcM}.webp">
                 <source type="image/jpg" srcset="{imageSrcM}.jpg">          
