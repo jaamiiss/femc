@@ -1,7 +1,21 @@
 <script>
     import Attr from "./Attr.svelte";
     import { glbVars } from "../../stores";
+    import { onMount } from 'svelte';
 
+    let dynamicCSS = `
+    .attribution, .attribution a { color: white }`
+
+    onMount(() => {
+        const currentPage = window.location.pathname;
+        const specificPages = ['/challenges/profile-card'];
+
+        if (specificPages.includes(currentPage)) {
+            const styleElement = document.createElement('style');
+            styleElement.textContent = dynamicCSS;
+            document.head.appendChild(styleElement);
+        }
+    });
 </script>
 <section class="container" role="main">
     <div class="profile-card">
