@@ -6,7 +6,6 @@
 .attribution {
     position: absolute;
     bottom: 10px;
-    background-color: inherit;
     font-size: 11px;
     text-align: center;
     font-family: inherit;
