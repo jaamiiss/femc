@@ -1,16 +1,7 @@
 <script>
     import Attr from "./Attr.svelte";
     import { glbVars } from "../../stores";
-    import { onMount } from 'svelte';
 
-    let dynamicCSS = `
-    .attribution, .attribution a { color: white }`
-
-    onMount(() => {
-        const styleElement = document.createElement('style');
-        styleElement.textContent = dynamicCSS;
-        document.head.appendChild(styleElement);
-    });
 </script>
 <section class="container" role="main">
     <div class="profile-card">
@@ -23,8 +14,8 @@
               <div class="pic">
                 <img src="{$glbVars.cdnUrl}/image-victor.jpg" alt="Victor Crest" />
               </div>
-              <p class="name"><span>Victor Crest</span> 26</p>
-              <p class="location">London</p>
+              <h1 class="name"><span>Victor Crest</span> 26</h1>
+              <h2 class="location">London</h2>
             </div>
             <div class="stats">
               <div class="followers">
