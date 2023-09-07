@@ -23,8 +23,8 @@
               <div class="pic">
                 <img src="{$glbVars.cdnUrl}/image-victor.jpg" alt="Victor Crest" />
               </div>
-              <p class="name"><span>Victor Crest</span> 26</p>
-              <p class="location">London</p>
+              <h1 class="name"><span>Victor Crest</span> 26</h1>
+              <h2 class="location">London</h2>
             </div>
             <div class="stats">
               <div class="followers">
