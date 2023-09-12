@@ -40,10 +40,10 @@
         },
         {
             order: 6,
-            title: "3-Column Preview card",
+            title: "3-Col Preview card",
             thumb: "6.jpg",
-            slug: "#",
-            level: "soon"
+            slug: "three-column-preview-card",
+            level: "newbie"
         },
         {
             order: 7,
@@ -51,10 +51,20 @@
             thumb: "7.jpg",
             slug: "#",
             level: "soon"
+        },
+        {
+            order: 8,
+            title: "Untitled",
+            thumb: "7.jpg",
+            slug: "#",
+            level: "soon"
         }
     ]
     challenges.sort((a, b) => b.order - a.order);
 </script>
+<section class="patient0">
+    <h1 class="gradient-text">Challenges</h1>
+</section>
 <section class="container" role="main">
     <div class="challenges">
         {#each challenges as item (item.title)}
@@ -74,6 +84,13 @@
 </section>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+.patient0 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Outfit', sans-serif;
+    padding: 50px 50px 20px;
+}
 
 .container {
     display: flex;
