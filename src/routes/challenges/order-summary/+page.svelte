@@ -1,4 +1,4 @@
 <script>
-	import OrderSummary from "../../../lib/components/OrderSummary.svelte";
+	import OrderSummary from "$lib/components/newbie/OrderSummary.svelte";
 </script>
 <OrderSummary/>

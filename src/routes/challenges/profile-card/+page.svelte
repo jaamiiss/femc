@@ -1,4 +1,4 @@
 <script>
-	import ProfileCard from "../../../lib/components/ProfileCard.svelte";
+	import ProfileCard from "$lib/components/newbie/ProfileCard.svelte";
 </script>
 <ProfileCard/>

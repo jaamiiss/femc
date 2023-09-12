@@ -1,5 +1,5 @@
 <script>
-	import Attr from "./Attr.svelte";
+	import Attr from "../Attr.svelte"
     import { onMount } from "svelte";
     
     const iconCart = "https://ik.imagekit.io/ivw8jbdbt/FEMC/icon-cart.svg";

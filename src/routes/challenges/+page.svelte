@@ -54,6 +54,13 @@
         },
         {
             order: 8,
+            title: "Coming Soon",
+            thumb: "7.jpg",
+            slug: "#",
+            level: "soon"
+        },
+        {
+            order: 9,
             title: "Untitled",
             thumb: "7.jpg",
             slug: "#",
@@ -89,7 +96,7 @@
     display: flex;
     justify-content: center;
     font-family: 'Outfit', sans-serif;
-    padding: 50px 50px 20px;
+    padding: 50px;
 }
 
 .container {
@@ -101,6 +108,7 @@
     min-height: 100vh;
     text-align: center;
     font-family: 'Outfit', sans-serif;
+    padding: 0 50px 50px;
 }
 
 .challenges {

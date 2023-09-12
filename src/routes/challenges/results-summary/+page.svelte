@@ -1,4 +1,4 @@
 <script>
-	import ResultsSummary from "../../../lib/components/ResultsSummary.svelte"
+	import ResultsSummary from "$lib/components/newbie/ResultsSummary.svelte";
 </script>
 <ResultsSummary/>

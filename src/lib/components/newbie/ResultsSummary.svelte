@@ -1,5 +1,5 @@
 <script>
-	import Attr from "./Attr.svelte";
+	import Attr from "../Attr.svelte";
 
     let overallScore = 76;
     let classification = "Great";

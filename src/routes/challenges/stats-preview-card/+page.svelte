@@ -1,4 +1,4 @@
 <script>
-    import StatsPreviewCard from "$lib/components/StatsPreviewCard.svelte";
+    import StatsPreviewCard from "$lib/components/newbie/StatsPreviewCard.svelte";
 </script>
 <StatsPreviewCard/>

@@ -11,5 +11,4 @@ vite.config.ts.timestamp-*
 src/routes/challenges/qr-code/README.md
 src/routes/challenges/newsletter*
 src/lib/components/NewsletterSignup.svelte
-src/lib/components/newbie*
 src/lib/components/junior*

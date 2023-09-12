@@ -1,6 +1,6 @@
 <script>
-    import Attr from "./Attr.svelte";
-    import { glbVars } from "../../stores";
+    import Attr from "../Attr.svelte";
+    import { glbVars } from "../../../stores";
     import { onMount } from 'svelte';
 
     let dynamicCSS = `

@@ -1,5 +1,5 @@
 <script>
-	import Attribution from "./Attr.svelte";
+	import Attr from "../Attr.svelte";
     const imageSrc = "https://ik.imagekit.io/ivw8jbdbt/FEMC/image-qr-code";
 </script>
 <section class="container" role="main">
@@ -15,7 +15,7 @@
             <p class="description">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
        </div>     
     </div>
-    <Attribution/>
+    <Attr/>
 </section>
 <style>  
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');

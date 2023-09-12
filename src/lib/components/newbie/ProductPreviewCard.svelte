@@ -1,5 +1,5 @@
 <script>
-	import Attribution from "./Attr.svelte";
+    import Attr from "../Attr.svelte";
     const imageSrc = "https://ik.imagekit.io/ivw8jbdbt/FEMC/image-product-desktop"
     const imageSrcM = "https://ik.imagekit.io/ivw8jbdbt/FEMC/image-product-mobile"
     const iconCart = "https://ik.imagekit.io/ivw8jbdbt/FEMC/icon-cart.svg";
@@ -29,7 +29,7 @@
             </button>
         </div>
     </div>
-    <Attribution/>
+    <Attr/>
 </section>
 <style> 
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
