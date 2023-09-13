@@ -40,7 +40,7 @@
         },
         {
             order: 6,
-            title: "3-Col Preview card",
+            title: "3-Col Preview Card",
             thumb: "6.jpg",
             slug: "three-column-preview-card",
             level: "newbie"
@@ -54,15 +54,15 @@
         },
         {
             order: 8,
-            title: "Coming Soon",
-            thumb: "7.jpg",
+            title: "Single Price Grid",
+            thumb: "8.jpg",
             slug: "#",
             level: "soon"
         },
         {
             order: 9,
             title: "Untitled",
-            thumb: "7.jpg",
+            thumb: "8.jpg",
             slug: "#",
             level: "soon"
         }
