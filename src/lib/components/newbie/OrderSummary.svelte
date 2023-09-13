@@ -142,4 +142,13 @@
     text-align: right;
 }
 
+@media screen and (max-width: 1025px) {
+    .order-summary {
+        width: 90%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+    }
+}
 </style>
