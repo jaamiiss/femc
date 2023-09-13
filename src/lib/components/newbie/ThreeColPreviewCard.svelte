@@ -78,7 +78,7 @@
     font-family: 'Lexend Deca', sans-serif;
     display: flex;
     border-radius: 8px;
-    width: 70rem;
+    width: 60rem;
     max-width: 100%;
     overflow: hidden;
 }
@@ -121,7 +121,7 @@ img {
 
 .btn {
     width: fit-content;
-    margin-top: 3.4rem;
+    margin-top: 3rem;
     padding: 13px 30px;
     border-radius: 35px;
     border: 2px solid var(--tcpc-color-very-light-gray);
