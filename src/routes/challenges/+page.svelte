@@ -61,9 +61,16 @@
         },
         {
             order: 9,
-            title: "Untitled",
-            thumb: "8.jpg",
-            slug: "#",
+            title: "NFT Preview Card",
+            thumb: "9.jpg",
+            slug: "nft-preview-card",
+            level: "soon"
+        },
+        {
+            order: 10,
+            title: "Huddle Landing Page",
+            thumb: "10.jpg",
+            slug: "huddle-landing-page",
             level: "soon"
         }
     ]
