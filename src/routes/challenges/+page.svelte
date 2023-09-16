@@ -49,7 +49,7 @@
             order: 7,
             title: "Stats Preview Card",
             thumb: "7.jpg",
-            slug: "#",
+            slug: "stats-preview-card",
             level: "soon"
         },
         {
