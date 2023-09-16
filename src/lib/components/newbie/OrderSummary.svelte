@@ -42,10 +42,13 @@
     --os-color-very-pale-blue: hsl(225, 100%, 98%);
     --os-color-desaturated-blue: hsl(224, 23%, 55%);
     --os-color-dark-blue: hsl(223, 47%, 23%);
+
+    --os-color-light-gray: hsl(230, 75%, 98%);
+    --os-font-fam: 'Red Hat Display',sans-serif;
 }
 
 .container {
-    font-family: 'Red Hat Display',sans-serif;
+    font-family: var(--os-font-fam);
     font-size: 16px;
     height: 100vh;
     position: relative;
@@ -53,7 +56,9 @@
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    background-color: var(--os-color-pale-blue);
+    background: url(https://ik.imagekit.io/ivw8jbdbt/FEMC/pattern-background-desktop.svg), var(--os-color-pale-blue);
+    background-repeat: no-repeat;
+    background-size: contain;
 } 
 
 .order-summary {
@@ -62,14 +67,17 @@
     width: 350px;
     border-radius: 14px;
     overflow: hidden;
+    box-shadow: 0 15px 25px 0 hsla(245, 75%, 52%, .11);
 }
 
 .pricing {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 1rem;
-    border-radius: .5rem;
+    padding: 1rem 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: .5rem;    
+    background: var(--os-color-light-gray);
 }
 
 .icon img {
@@ -81,8 +89,20 @@
     text-align: center;;
 }
 
+.details h1 {
+    color: var(--os-color-dark-blue);
+    line-height: 2;
+    font-weight: 900;
+}
+
+.details p {
+    color: var(--os-color-desaturated-blue);
+    font-size: 14px;
+    line-height: 1.5;
+}
+
 .summary {
-    padding: 20px;
+    padding: 20px 40px 30px;
 }
 
 .cover-photo {
@@ -91,47 +111,54 @@
 
 .plan {
     text-align: left;
-    padding: 0 20px;
+    padding: 0 20px 0 15px;
 }
 
 .title {
-    font-size: 16px;
+    font-size: 14px;
+    color: var(--os-color-dark-blue);
+    line-height: 1.5;
+    font-weight: 900;
 }
 
 .price {
     font-size: 14px;
+    color: var(--os-color-desaturated-blue);
 }
 
 .btn {
+    font-family: var(--os-font-fam);
     cursor: pointer;
     border: 0;
-    border-radius: 12px;
+    border-radius: 10px;
     padding: 0.75rem;
     width: 100%;
     margin-bottom: 15px;
     font-weight: 700;
+    font-size: 14px;
 }
 
 .btn-primary {
     background-color: var(--os-color-bright-blue);
     color: white;
+    box-shadow: 0 15px 20px 0 hsla(245, 75%, 52%, .25);
+    opacity: 1;
+    transition: all .2s ease;
 }
 
 .btn-cancel {
     background: none;
     color: var(--os-color-desaturated-blue);
     margin-bottom: 0;
+    transition: color .2s ease;
 }
 
 .btn-primary:hover{
-    background: var(--os-color-pale-blue);
-    color: var(--os-color-desaturated-blue);
+    opacity: 0.6;
 }
 
-
 .btn-cancel:hover{
-    background: var(--os-color-bright-blue);
-    color: white;
+    color: var(--os-color-dark-blue);
 }
 
 .btn-change {
@@ -140,15 +167,30 @@
     text-decoration: underline;
     color:  var(--os-color-bright-blue);
     text-align: right;
+    margin-bottom: 0;
 }
 
 @media screen and (max-width: 1025px) {
+    .container {
+        background: url(https://ik.imagekit.io/ivw8jbdbt/FEMC/pattern-background-mobile.svg), var(--os-color-pale-blue);
+        background-repeat: no-repeat;
+        background-size: contain;
+    } 
+
     .order-summary {
         width: 90%;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         margin: 20px;
+    }
+
+    .summary {
+        padding: 20px;
+    }
+
+    .details p {
+        font-size: 16px;
     }
 }
 </style>
