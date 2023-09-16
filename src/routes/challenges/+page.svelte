@@ -56,8 +56,8 @@
             order: 8,
             title: "Single Price Grid",
             thumb: "8.jpg",
-            slug: "#",
-            level: "soon"
+            slug: "single-price-grid",
+            level: "newbie"
         },
         {
             order: 9,
