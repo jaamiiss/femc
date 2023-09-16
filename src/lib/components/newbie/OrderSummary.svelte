@@ -64,7 +64,7 @@
 .order-summary {
     background: white;
     position: relative;
-    width: 350px;
+    width: 450px;
     border-radius: 14px;
     overflow: hidden;
     box-shadow: 0 15px 25px 0 hsla(245, 75%, 52%, .11);
@@ -75,7 +75,7 @@
     justify-content: space-evenly;
     align-items: center;
     padding: 1rem 1.5rem;
-    margin: 1.5rem 0;
+    margin: 1rem 0 1.5rem;
     border-radius: .5rem;    
     background: var(--os-color-light-gray);
 }
@@ -86,7 +86,8 @@
 }
 
 .details {
-    text-align: center;;
+    text-align: center;
+    padding: 0 10px;
 }
 
 .details h1 {
@@ -97,7 +98,6 @@
 
 .details p {
     color: var(--os-color-desaturated-blue);
-    font-size: 14px;
     line-height: 1.5;
 }
 
@@ -189,8 +189,13 @@
         padding: 20px;
     }
 
+    .details {
+        text-align: center;
+        padding: 0 15px;
+    }   
+
     .details p {
-        font-size: 16px;
+        font-size: 14px;
     }
 }
 </style>
