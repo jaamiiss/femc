@@ -1,0 +1,101 @@
+[
+    {
+        "order": 1,
+        "title": "QR Code",
+        "thumb": "1.jpg",
+        "slug": "qr-code",
+        "level": "newbie"
+    },
+    {
+        "order": 2,
+        "title": "Product Preview Card",
+        "thumb": "2.jpg",
+        "slug": "product-preview-card",
+        "level": "newbie"
+    },
+    {
+        "order": 3,
+        "title": "Results Summary",
+        "thumb": "3.jpg",
+        "slug": "results-summary",
+        "level": "newbie"
+    },
+    {
+        "order": 4,
+        "title": "Profile Card",
+        "thumb": "4.jpg",
+        "slug": "profile-card",
+        "level": "newbie"
+    },
+    {
+        "order": 5,
+        "title": "Order Summary",
+        "thumb": "5.jpg",
+        "slug": "order-summary",
+        "level": "newbie"
+    },
+    {
+        "order": 6,
+        "title": "3-Col Preview Card",
+        "thumb": "6.jpg",
+        "slug": "three-column-preview-card",
+        "level": "newbie"
+    },
+    {
+        "order": 7,
+        "title": "Stats Preview Card",
+        "thumb": "7.jpg",
+        "slug": "stats-preview-card",
+        "level": "newbie"
+    },
+    {
+        "order": 8,
+        "title": "Single Price Grid",
+        "thumb": "8.jpg",
+        "slug": "single-price-grid",
+        "level": "newbie"
+    },
+    {
+        "order": 9,
+        "title": "NFT Preview Card",
+        "thumb": "9.jpg",
+        "slug": "nft-preview-card",
+        "level": "newbie"
+    },
+    {
+        "order": 10,
+        "title": "Huddle Landing Page",
+        "thumb": "10.jpg",
+        "slug": "huddle-landing-page",
+        "level": "newbie"
+    },
+    {
+        "order": 11,
+        "title": "Four Card Feature",
+        "thumb": "11.jpg",
+        "slug": "four-card-feature",
+        "level": "newbie"
+    },
+    {
+        "order": 12,
+        "title": "Social Proof",
+        "thumb": "12.jpg",
+        "slug": "social-proof",
+        "level": "newbie"
+    },
+    {
+        "order": 13,
+        "title": "Interactive Rating Component",
+        "thumb": "13.jpg",
+        "slug": "interactive-rating",
+        "level": "newbie"
+    },
+    {
+        "order": 14,
+        "title": "Newsletter sign-up form with success message",
+        "thumb": "14.jpg",
+        "slug": "newsletter-signup",
+        "level": "junior"
+    }
+]
+
