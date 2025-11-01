@@ -5,7 +5,7 @@ A collection of [Frontend Mentor](https://www.frontendmentor.io) challenge solut
 ## 🚀 Features
 
 - **Dynamic Routing** - All challenges are handled through a single dynamic route (`[slug]`)
-- **Organized by Level** - Challenges categorized as newbie, junior (14 challenges total)
+- **Organized by Level** - Challenges categorized as newbie, junior (18 challenges total)
 - **Search & Filter** - Find challenges by level or search by title
 - **Multiple Views** - Grid, Card, and List view options
 - **Responsive Design** - Mobile-first approach with modern CSS
@@ -100,7 +100,7 @@ Challenge components are **automatically loaded** through dynamic routing. The s
 
 **Error Handling:** Invalid slugs automatically show a 404 page via `+error.svelte`.
 
-Currently includes **14 challenges** across newbie and junior levels.
+Currently includes **18 challenges** across newbie and junior levels.
 
 ### Steps to Add a Challenge
 

@@ -131,6 +131,42 @@ export const challengeLayouts = {
             link: 'hsl(4, 100%, 67%)', // Red accent matching component
             linkHover: 'hsl(4, 100%, 75%)'
         }
+    },
+    'faq-accordion': {
+        title: 'FAQ Accordion',
+        // Light purple background hsl(275, 100%, 97%) - use component's purple-950 hsl(292, 42%, 14%)
+        attrColors: {
+            text: 'hsl(292, 42%, 14%)', // Matches component's purple-950
+            link: 'hsl(292, 16%, 49%)', // Use component's purple-600
+            linkHover: 'hsl(292, 16%, 40%)'
+        }
+    },
+    'social-links-profile': {
+        title: 'Social Links Profile',
+        // Dark grey background hsl(0, 0%, 8%) - use component's green accent hsl(75, 94%, 57%)
+        attrColors: {
+            text: 'hsl(0, 0%, 100%)', // White for contrast on dark bg
+            link: 'hsl(75, 94%, 57%)', // Use component's green accent
+            linkHover: 'hsl(75, 94%, 67%)'
+        }
+    },
+    'recipe-page': {
+        title: 'Recipe Page',
+        // Light stone background hsl(30, 18%, 87%) - use component's stone-900 hsl(24, 5%, 18%)
+        attrColors: {
+            text: 'hsl(30, 10%, 34%)', // Matches component's stone-600
+            link: 'hsl(14, 45%, 36%)', // Use component's brown-800
+            linkHover: 'hsl(14, 45%, 30%)'
+        }
+    },
+    'base-apparel-coming-soon': {
+        title: 'Base Apparel Coming Soon',
+        // Light gradient background - use component's gray-900 hsl(0, 6%, 24%)
+        attrColors: {
+            text: 'hsl(0, 36%, 70%)', // Matches component's pink-400
+            link: 'hsl(0, 6%, 24%)', // Use component's gray-900
+            linkHover: 'hsl(0, 6%, 18%)'
+        }
     }
 };
 
