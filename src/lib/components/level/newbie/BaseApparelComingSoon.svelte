@@ -5,12 +5,12 @@
     let email = "";
     let emailError = "";
     
-    $: logo = `${$glbVars.cdnUrl}base-apparel-coming-soon/logo.svg`;
-    $: heroMobile = `${$glbVars.cdnUrl}base-apparel-coming-soon/hero-mobile.jpg`;
-    $: heroDesktop = `${$glbVars.cdnUrl}base-apparel-coming-soon/hero-desktop.jpg`;
-    $: bgPatternDesktop = `${$glbVars.cdnUrl}base-apparel-coming-soon/bg-pattern-desktop.svg`;
-    $: iconArrow = `${$glbVars.cdnUrl}base-apparel-coming-soon/icon-arrow.svg`;
-    $: iconError = `${$glbVars.cdnUrl}base-apparel-coming-soon/icon-error.svg`;
+    $: logo = `${$glbVars.cdnUrl}/logo.svg`;
+    $: heroMobile = `${$glbVars.cdnUrl}/hero-mobile.jpg`;
+    $: heroDesktop = `${$glbVars.cdnUrl}/hero-desktop.jpg`;
+    $: bgPatternDesktop = `${$glbVars.cdnUrl}/bg-pattern-desktop.svg`;
+    $: iconArrow = `${$glbVars.cdnUrl}/icon-arrow.svg`;
+    $: iconError = `${$glbVars.cdnUrl}/icon-error.svg`;
     
     /**
      * @param {string} value
