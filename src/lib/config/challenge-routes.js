@@ -35,7 +35,11 @@ const componentNameOverrides = {
     'four-card-feature': 'FourCardFeatureSection',
     'social-proof': 'SocialProofSection',
     'interactive-rating': 'InteractiveRating',
-    'newsletter-signup': 'NewsletterSignup'
+    'newsletter-signup': 'NewsletterSignup',
+    'faq-accordion': 'FAQAccordion',
+    'social-links-profile': 'SocialLinksProfile',
+    'recipe-page': 'RecipePage',
+    'base-apparel-coming-soon': 'BaseApparelComingSoon'
 };
 
 /**
@@ -63,7 +67,11 @@ const componentImports = {
     'four-card-feature': () => import('$lib/components/level/newbie/FourCardFeatureSection.svelte'),
     'social-proof': () => import('$lib/components/level/newbie/SocialProofSection.svelte'),
     'interactive-rating': () => import('$lib/components/level/newbie/InteractiveRating.svelte'),
-    'newsletter-signup': () => import('$lib/components/level/junior/NewsletterSignup.svelte')
+    'newsletter-signup': () => import('$lib/components/level/junior/NewsletterSignup.svelte'),
+    'faq-accordion': () => import('$lib/components/level/newbie/FAQAccordion.svelte'),
+    'social-links-profile': () => import('$lib/components/level/newbie/SocialLinksProfile.svelte'),
+    'recipe-page': () => import('$lib/components/level/newbie/RecipePage.svelte'),
+    'base-apparel-coming-soon': () => import('$lib/components/level/newbie/BaseApparelComingSoon.svelte')
 };
 
 /**
@@ -98,6 +106,10 @@ export async function importComponent(slug, level) {
         'newbie/FourCardFeatureSection': () => import('$lib/components/level/newbie/FourCardFeatureSection.svelte'),
         'newbie/SocialProofSection': () => import('$lib/components/level/newbie/SocialProofSection.svelte'),
         'newbie/InteractiveRating': () => import('$lib/components/level/newbie/InteractiveRating.svelte'),
+        'newbie/FAQAccordion': () => import('$lib/components/level/newbie/FAQAccordion.svelte'),
+        'newbie/SocialLinksProfile': () => import('$lib/components/level/newbie/SocialLinksProfile.svelte'),
+        'newbie/RecipePage': () => import('$lib/components/level/newbie/RecipePage.svelte'),
+        'newbie/BaseApparelComingSoon': () => import('$lib/components/level/newbie/BaseApparelComingSoon.svelte'),
         'junior/NewsletterSignup': () => import('$lib/components/level/junior/NewsletterSignup.svelte')
     };
     

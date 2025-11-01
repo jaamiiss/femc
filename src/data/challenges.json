@@ -96,6 +96,34 @@
         "thumb": "14.jpg",
         "slug": "newsletter-signup",
         "level": "junior"
+    },
+    {
+        "order": 15,
+        "title": "FAQ Accordion",
+        "thumb": "15.jpg",
+        "slug": "faq-accordion",
+        "level": "newbie"
+    },
+    {
+        "order": 16,
+        "title": "Social Links Profile",
+        "thumb": "16.jpg",
+        "slug": "social-links-profile",
+        "level": "newbie"
+    },
+    {
+        "order": 17,
+        "title": "Recipe Page",
+        "thumb": "17.jpg",
+        "slug": "recipe-page",
+        "level": "newbie"
+    },
+    {
+        "order": 18,
+        "title": "Base Apparel coming soon page",
+        "thumb": "18.jpg",
+        "slug": "base-apparel-coming-soon",
+        "level": "newbie"
     }
 ]
 
