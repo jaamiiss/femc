@@ -113,12 +113,14 @@
                 <h2 class="section-title">Nutrition</h2>
                 <p class="nutrition-description">{recipe.nutrition.description}</p>
                 <table class="nutrition-table">
-                    {#each recipe.nutrition.values as item, index}
-                        <tr>
-                            <td class="nutrition-label">{item.label}</td>
-                            <td class="nutrition-value">{item.value}</td>
-                        </tr>
-                    {/each}
+                    <tbody>
+                        {#each recipe.nutrition.values as item, index}
+                            <tr>
+                                <td class="nutrition-label">{item.label}</td>
+                                <td class="nutrition-value">{item.value}</td>
+                            </tr>
+                        {/each}
+                    </tbody>
                 </table>
             </section>
         </div>
