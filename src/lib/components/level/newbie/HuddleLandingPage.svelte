@@ -20,7 +20,7 @@
         <img src="{$glbVars.cdnUrl}logo.svg" alt="Huddle logo" class="logo" />
     </header>
 
-    <main class="main-content">
+    <div class="main-content">
         <div class="illustration">
             <img src="{$glbVars.cdnUrl}illustration-mockups.svg" alt="Illustration mockups" />
         </div>
@@ -31,9 +31,9 @@
                 Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
                 Create connections with your users as you engage in genuine discussion.
             </p>
-            <button class="register-btn">Register</button>
+            <button type="button" class="register-btn">Register</button>
         </div>
-    </main>
+    </div>
 
     <footer class="footer">
         <div class="social-icons">

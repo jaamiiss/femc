@@ -17,7 +17,7 @@
             </picture>            
         </div>
         <div class="product-details">
-            <h3 class="category">Perfume</h3>
+            <p class="category">Perfume</p>
             <h1 class="title">Gabrielle Essence Eau De Parfum</h1>
             <p class="description">A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
             <ul>

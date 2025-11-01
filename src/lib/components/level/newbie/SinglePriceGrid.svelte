@@ -11,7 +11,7 @@
        </div>
        <div class="info-pricing">
             <div class="monthly">
-                <h2> Monthly Subscription</h2>
+                <h2>Monthly Subscription</h2>
                 <p class="price">$29<span>per month</span></p>
                 <p>Full access for less than &dollar;1 a day</p>
                 <button type="button" class="btn">Sign Up</button>
@@ -84,6 +84,8 @@ h1 {
 
 .subtitle {
     color: var(--spg-color-bright-yellow);
+    font-weight: 600;
+    padding: 20px 0;
 }
 
 .info-pricing {
