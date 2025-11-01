@@ -23,7 +23,7 @@
     }
 </script>
 
-<section class="container" role="main">
+<main class="container">
     {#if !submitted}
         <div class="rating-card">
             <div class="icon-wrapper">
@@ -41,6 +41,7 @@
             <div class="ratings">
                 {#each ratings as rating}
                     <button
+                        type="button"
                         class="rating-btn"
                         class:selected={selectedRating === rating}
                         on:click={() => selectRating(rating)}
@@ -52,6 +53,7 @@
             </div>
             
             <button
+                type="button"
                 class="submit-btn"
                 on:click={handleSubmit}
                 disabled={selectedRating === null}
@@ -85,7 +87,7 @@
         </div>
     {/if}
     <Attr/>
-</section>
+</main>
 
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');

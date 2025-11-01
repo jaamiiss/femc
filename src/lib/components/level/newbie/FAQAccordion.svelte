@@ -47,7 +47,16 @@
     $: bgDesktop = `${$glbVars.cdnUrl}faq-accordion/background-pattern-desktop.svg`;
 </script>
 
-<section class="container" role="main" style="--bg-mobile: url('{bgMobile}'); --bg-desktop: url('{bgDesktop}');">
+<svelte:head>
+    {@html `<style>
+        .container {
+            --bg-mobile: url('${bgMobile}');
+            --bg-desktop: url('${bgDesktop}');
+        }
+    </style>`}
+</svelte:head>
+
+<main class="container">
     <div class="accordion-card">
         <div class="header">
             <svg class="star-icon" width="40" height="41" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 40 41">
@@ -60,6 +69,7 @@
             {#each faqs as faq, index}
                 <div class="faq-item">
                     <button
+                        type="button"
                         class="faq-question"
                         class:open={openItems.has(index)}
                         on:click={() => toggleItem(index)}
@@ -97,7 +107,7 @@
         </div>
     </div>
     <Attr/>
-</section>
+</main>
 
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap');

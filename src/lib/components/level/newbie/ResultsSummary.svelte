@@ -26,7 +26,7 @@
         "icon": "/icon-visual.svg"
     }]
 </script>
-<section class="container" role="main">
+<main class="container">
     <div class="results-summary">
         <div class="results grid-flow" data-spacing="large">
             <h1 class="title">Your Result</h1>
@@ -53,11 +53,11 @@
                     </div>
                 {/each}
             </div>
-            <button class="btn">Continue</button>
+            <button type="button" class="btn">Continue</button>
         </div>
     </div>
     <Attr/>
-</section>
+</main>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,700;0,800;1,500&display=swap');
 

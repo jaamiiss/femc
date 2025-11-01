@@ -2,7 +2,7 @@
 	import Attr from "../../shared/Attr.svelte";
     const imageSrc = "https://ik.imagekit.io/ivw8jbdbt/FEMC/image-qr-code";
 </script>
-<section class="container" role="main">
+<main class="container">
     <div class="card">
        <picture>
             <source type="image/avif" srcset="{imageSrc}.avif">
@@ -16,7 +16,7 @@
        </div>     
     </div>
     <Attr/>
-</section>
+</main>
 <style>  
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 

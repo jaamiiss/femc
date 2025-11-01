@@ -2,7 +2,7 @@
     import Attr from "../../shared/Attr.svelte";
     import { glbVars } from "../../../../stores";
 </script>
-<section class="container" role="main">
+<main class="container">
     <div class="profile-card">
         <div class="top-bg"></div>
         <div class="bottom-bg"></div>
@@ -34,7 +34,7 @@
         </div>
     </div>
     <Attr/>
-</section>
+</main>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
 

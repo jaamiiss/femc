@@ -3,7 +3,7 @@
     import { glbVars } from "../../../../stores";
 </script>
 
-<section class="container" role="main">
+<main class="container">
     <div class="card">
         <div class="image-container">
             <picture>
@@ -39,7 +39,7 @@
         </div>
     </div>
     <Attr/>
-</section>
+</main>
 
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca:wght@400&display=swap');

@@ -4,7 +4,7 @@
     const imageSrcM = "https://ik.imagekit.io/ivw8jbdbt/FEMC/image-product-mobile"
     const iconCart = "https://ik.imagekit.io/ivw8jbdbt/FEMC/icon-cart.svg";
 </script>
-<section class="container" role="main">
+<main class="container">
     <div class="product-card">
         <div class="product-image">
             <picture>
@@ -24,13 +24,13 @@
                 <li class="price">$149.99</li>
                 <li><s>$169.99</s></li>
             </ul>
-            <button class="btn">
+            <button type="button" class="btn">
                 <img src="{iconCart}" alt="Cart Icon" /> Add to Cart
             </button>
         </div>
     </div>
     <Attr/>
-</section>
+</main>
 <style> 
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
 
@@ -43,7 +43,7 @@
     --ppc-color-white: hsl(0, 0%, 100%);
 }
 
-section {
+main {
     font-size: 14px;
     font-family: "Montserrat", sans-serif;
     background-color: var(--ppc-color-cream);
