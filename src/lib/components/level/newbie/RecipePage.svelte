@@ -5,7 +5,7 @@
     const recipe = {
         title: "Simple Omelette Recipe",
         description: "An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked to perfection, optionally filled with your choice of cheese, vegetables, or meats.",
-        image: `${$glbVars.cdnUrl}recipe-page/image-omelette.jpeg`,
+        image: `${$glbVars.cdnUrl}/image-omelette.jpeg`,
         prepTime: {
             total: "Approximately 10 minutes",
             preparation: "5 minutes",

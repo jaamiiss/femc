@@ -43,8 +43,8 @@
         }
     }
     
-    $: bgMobile = `${$glbVars.cdnUrl}faq-accordion/background-pattern-mobile.svg`;
-    $: bgDesktop = `${$glbVars.cdnUrl}faq-accordion/background-pattern-desktop.svg`;
+    $: bgMobile = `${$glbVars.cdnUrl}/background-pattern-mobile.svg`;
+    $: bgDesktop = `${$glbVars.cdnUrl}/background-pattern-desktop.svg`;
 </script>
 
 <svelte:head>
@@ -93,15 +93,14 @@
                             {/if}
                         </span>
                     </button>
-                    <div
+                    <section
                         class="faq-answer"
                         class:open={openItems.has(index)}
                         id="faq-answer-{index}"
-                        role="region"
                         aria-labelledby="faq-question-{index}"
                     >
                         <p>{faq.answer}</p>
-                    </div>
+                    </section>
                 </div>
             {/each}
         </div>

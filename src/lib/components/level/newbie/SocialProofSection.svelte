@@ -75,7 +75,7 @@
             <div class="testimonial-header">
                 <img src="{$glbVars.cdnUrl}image-colton.jpg" alt="Colton Smith" class="avatar" />
                 <div class="testimonial-info">
-                    <h3 class="testimonial-name">Colton Smith</h3>
+                    <h2 class="testimonial-name">Colton Smith</h2>
                     <p class="testimonial-verified">Verified Buyer</p>
                 </div>
             </div>
@@ -90,7 +90,7 @@
             <div class="testimonial-header">
                 <img src="{$glbVars.cdnUrl}image-irene.jpg" alt="Irene Roberts" class="avatar" />
                 <div class="testimonial-info">
-                    <h3 class="testimonial-name">Irene Roberts</h3>
+                    <h2 class="testimonial-name">Irene Roberts</h2>
                     <p class="testimonial-verified">Verified Buyer</p>
                 </div>
             </div>
@@ -104,7 +104,7 @@
             <div class="testimonial-header">
                 <img src="{$glbVars.cdnUrl}image-anne.jpg" alt="Anne Wallace" class="avatar" />
                 <div class="testimonial-info">
-                    <h3 class="testimonial-name">Anne Wallace</h3>
+                    <h2 class="testimonial-name">Anne Wallace</h2>
                     <p class="testimonial-verified">Verified Buyer</p>
                 </div>
             </div>

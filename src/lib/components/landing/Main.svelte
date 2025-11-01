@@ -46,7 +46,7 @@
                         <path d="M16 24L22 30L32 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                     </svg>
                 </div>
-                <h3>Real-World Projects</h3>
+                <h2>Real-World Projects</h2>
                 <p>Build actual components used in production websites</p>
             </div>
             <div class="feature-card">
@@ -55,7 +55,7 @@
                         <path d="M24 4L30 18L44 20L34 30L36 44L24 38L12 44L14 30L4 20L18 18L24 4Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                     </svg>
                 </div>
-                <h3>Multiple Difficulty Levels</h3>
+                <h2>Multiple Difficulty Levels</h2>
                 <p>From newbie to advanced, find challenges that match your skill level</p>
             </div>
             <div class="feature-card">
@@ -65,7 +65,7 @@
                         <path d="M16 20L24 28L32 20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                     </svg>
                 </div>
-                <h3>Responsive Design</h3>
+                <h2>Responsive Design</h2>
                 <p>Learn to create layouts that work on all devices</p>
             </div>
         </div>
