@@ -47,7 +47,7 @@
     }
 </script>
 
-<section class="container" role="main">
+<main class="container">
     {#if !submitted}
         <div class="signup-card">
             <div class="illustration">
@@ -108,11 +108,11 @@
                 A confirmation email has been sent to <strong>{submittedEmail}</strong>. 
                 Please open it and click the button inside to confirm your subscription.
             </p>
-            <button on:click={dismissMessage} class="dismiss-btn">Dismiss message</button>
+            <button type="button" on:click={dismissMessage} class="dismiss-btn">Dismiss message</button>
         </div>
     {/if}
     <Attr/>
-</section>
+</main>
 
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');

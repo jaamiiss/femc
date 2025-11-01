@@ -44,11 +44,15 @@
     }
 </script>
 
-<section 
-    class="container" 
-    role="main"
-    style="--bg-pattern: url('{bgPatternDesktop}')"
->
+<svelte:head>
+    {@html `<style>
+        .container {
+            --bg-pattern: url('${bgPatternDesktop}');
+        }
+    </style>`}
+</svelte:head>
+
+<main class="container">
     <header class="header">
         <img 
             src={logo}
@@ -128,7 +132,7 @@
         </div>
     </div>
     <Attr/>
-</section>
+</main>
 
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');

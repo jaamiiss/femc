@@ -56,7 +56,7 @@
     };
 </script>
 
-<section class="container" role="main">
+<main class="container">
     <article class="recipe-card">
         <img 
             src={recipe.image}
@@ -124,7 +124,7 @@
         </div>
     </article>
     <Attr/>
-</section>
+</main>
 
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Young+Serif&family=Outfit:wght@400;600;700&display=swap');

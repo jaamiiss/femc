@@ -6,9 +6,27 @@
     $: bgTopDesktop = `${$glbVars.cdnUrl}bg-pattern-top-desktop.svg`;
     $: bgBottomMobile = `${$glbVars.cdnUrl}bg-pattern-bottom-mobile.svg`;
     $: bgBottomDesktop = `${$glbVars.cdnUrl}bg-pattern-bottom-desktop.svg`;
+    
+    $: bgStyles = `
+        --bg-top-mobile: url('${bgTopMobile}');
+        --bg-top-desktop: url('${bgTopDesktop}');
+        --bg-bottom-mobile: url('${bgBottomMobile}');
+        --bg-bottom-desktop: url('${bgBottomDesktop}');
+    `;
 </script>
 
-<section class="container" role="main" style="--bg-top-mobile: url('{bgTopMobile}'); --bg-top-desktop: url('{bgTopDesktop}'); --bg-bottom-mobile: url('{bgBottomMobile}'); --bg-bottom-desktop: url('{bgBottomDesktop}');">
+<svelte:head>
+    {@html `<style>
+        .container {
+            --bg-top-mobile: url('${bgTopMobile}');
+            --bg-top-desktop: url('${bgTopDesktop}');
+            --bg-bottom-mobile: url('${bgBottomMobile}');
+            --bg-bottom-desktop: url('${bgBottomDesktop}');
+        }
+    </style>`}
+</svelte:head>
+
+<main class="container">
     <div class="top-section">
         <div class="intro">
             <h1>10,000+ of our users love our products.</h1>
@@ -97,7 +115,7 @@
         </article>
     </div>
     <Attr/>
-</section>
+</main>
 
 <style>
     @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');

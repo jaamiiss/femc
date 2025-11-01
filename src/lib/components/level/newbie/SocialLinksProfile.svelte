@@ -19,7 +19,7 @@
     $: avatarSrc = profile.avatar;
 </script>
 
-<section class="container" role="main">
+<main class="container">
     <div class="profile-card">
         <div class="profile-header">
             <img 
@@ -53,7 +53,7 @@
         </nav>
     </div>
     <Attr/>
-</section>
+</main>
 
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');

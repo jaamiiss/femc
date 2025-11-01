@@ -6,7 +6,16 @@
     $: bgDesktop = `${$glbVars.cdnUrl}bg-desktop.svg`;
 </script>
 
-<section class="container" role="main" style="--bg-mobile: url('{bgMobile}'); --bg-desktop: url('{bgDesktop}');">
+<svelte:head>
+    {@html `<style>
+        .container {
+            --bg-mobile: url('${bgMobile}');
+            --bg-desktop: url('${bgDesktop}');
+        }
+    </style>`}
+</svelte:head>
+
+<main class="container">
     <header class="header">
         <img src="{$glbVars.cdnUrl}logo.svg" alt="Huddle logo" class="logo" />
     </header>
@@ -46,7 +55,7 @@
         </div>
     </footer>
     <Attr/>
-</section>
+</main>
 
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Open+Sans:wght@400&display=swap');

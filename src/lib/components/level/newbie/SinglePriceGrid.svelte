@@ -2,7 +2,7 @@
     import Attr from "../../shared/Attr.svelte";
 
 </script>
-<section class="container" role="main">
+<main class="container">
     <div class="single-price-grid">
        <div class="info-community">
             <h1>Join our community</h1>
@@ -14,7 +14,7 @@
                 <h2> Monthly Subscription</h2>
                 <p class="price">$29<span>per month</span></p>
                 <p>Full access for less than &dollar;1 a day</p>
-                <button class="btn">Sign Up</button>
+                <button type="button" class="btn">Sign Up</button>
             </div>
             <div class="why-us">
                 <h2>Why Us</h2>
@@ -31,7 +31,7 @@
        </div>
     </div>
     <Attr/>
-</section>
+</main>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
 

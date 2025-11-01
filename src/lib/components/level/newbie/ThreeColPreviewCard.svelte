@@ -2,32 +2,32 @@
 	import Attr from "../../shared/Attr.svelte";
     import { glbVars } from "../../../../stores";
 </script>
-<section class="container" role="main">
+<main class="container">
     <div class="tc-preview-card">
         <div class="column sedans">
             <img src="{$glbVars.cdnUrl}icon-sedans.svg" alt="Car type icon">
             <h1 class="title">Sedans</h1>
             <p class="description">Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city 
                 or on your next road trip.</p>
-            <button class="btn">Learn More</button>
+            <button type="button" class="btn">Learn More</button>
         </div>
         <div class="column suvs">
             <img src="{$glbVars.cdnUrl}icon-suvs.svg" alt="Car type icon">
             <h1 class="title">SUVs</h1>
             <p class="description">Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation 
                 and off-road adventures.</p>
-            <button class="btn">Learn More</button>
+            <button type="button" class="btn">Learn More</button>
         </div>
         <div class="column luxury">
             <img src="{$glbVars.cdnUrl}icon-luxury.svg" alt="Car type icon">
             <h1 class="title">Luxury</h1>
             <p class="description">Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury 
                 rental and arrive in style.</p>
-            <button class="btn">Learn More</button>
+            <button type="button" class="btn">Learn More</button>
         </div>
     </div>
     <Attr/>
-</section>
+</main>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
 

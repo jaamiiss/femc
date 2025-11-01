@@ -3,7 +3,7 @@
     import { glbVars } from "../../../../stores";
 
 </script>
-<section class="container" role="main">
+<main class="container">
     <div class="order-summary">
         <img class="cover-photo" src="{$glbVars.cdnUrl}/illustration-hero.svg" alt="Order Summary Cover">
         <div class="summary">
@@ -20,16 +20,16 @@
                     <h2 class="title">Annual Plan</h2>
                     <p class="price">$59.099/year
                 </div>
-                <button class="btn btn-change">Change</button>
+                <button type="button" class="btn btn-change">Change</button>
             </div>
             <div class="buttons">
-                <button class="btn btn-primary">Proceed to Payment</button>
-                <button class="btn btn-cancel">Cancel Order</button>
+                <button type="button" class="btn btn-primary">Proceed to Payment</button>
+                <button type="button" class="btn btn-cancel">Cancel Order</button>
             </div>
         </div>
     </div>
     <Attr/>
-</section>
+</main>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
 
